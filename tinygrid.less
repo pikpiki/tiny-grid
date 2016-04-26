@@ -1,0 +1,10 @@
+@columns: 12;
+.span-columns(@num){
+  width: @num * (100% / @columns);
+  float: left;
+}
+
+.span-offset(@num){
+  position: relative;
+  left: @num * (100% / @columns);
+}  
