@@ -1,0 +1,9 @@
+$columns: 12;
+@mixin span-columns($num){
+  float: left;
+  width: $num * (100% / $columns);
+}  
+@mixin span-offset($num){
+  position: relative;
+  left: $num * (100% / $columns);
+}  
