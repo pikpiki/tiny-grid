@@ -1,0 +1,8 @@
+columns = 12 // Feel free to change the columns at any time!
+span-columns(num)
+  width: num * (100% / columns)
+  float: left
+  
+span-offset(num)
+  position: relative
+  left: num * (100% / columns)
